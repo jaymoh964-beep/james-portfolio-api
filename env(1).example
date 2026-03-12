@@ -1,0 +1,22 @@
+# ── James Shio Portfolio — Backend Config ──────────────────
+# Copy this file to .env and fill in your real values
+
+# Your Gmail address (used to SEND emails)
+EMAIL_USER=your_gmail@gmail.com
+
+# Gmail App Password (NOT your login password!)
+# Steps to get one:
+# 1. Go to myaccount.google.com → Security
+# 2. Enable 2-Factor Authentication
+# 3. Search "App Passwords" → Create one for "Mail"
+# 4. Paste the 16-character code here (no spaces)
+EMAIL_PASS=xxxx_xxxx_xxxx_xxxx
+
+# Where to receive notifications (defaults to EMAIL_USER if not set)
+NOTIFY_EMAIL=james@jamesshio.dev
+
+# Your frontend URL (for CORS — use * for all origins in dev)
+FRONTEND_URL=https://jamesshio.dev
+
+# Server port
+PORT=3001
